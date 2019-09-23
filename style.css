@@ -1,0 +1,42 @@
+body {
+  background-color: coral;
+}
+
+.container {
+  margin: 30px auto;
+  max-width: 400px;
+}
+
+form {
+  background-color: rgb(216, 162, 61);
+  padding: 20px;
+  color: white;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(221, 64, 64);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(223, 84, 84);
+}
+
+div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
